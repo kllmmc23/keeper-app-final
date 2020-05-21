@@ -8,6 +8,7 @@ html {
 }
 body {
   background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
   padding: 0 16px;
 }
 
@@ -57,6 +58,7 @@ footer p {
 
 .note button {
   position: relative;
+  background-color: #fff;
   float: right;
   margin-right: 10px;
   color: #6bbe92;

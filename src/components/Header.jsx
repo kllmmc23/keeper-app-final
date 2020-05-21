@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
+import SvgIcon from "@material-ui/icons/EmojiObjects";
 
 function Header() {
   setInterval(clock, 1000);
@@ -12,7 +14,7 @@ function Header() {
   }
   return (
     <header>
-      <h1>Note Taker App - {time}</h1>
+      <h1><SvgIcon /> Note Taker App - {time}</h1>
     </header>
   );
 }
