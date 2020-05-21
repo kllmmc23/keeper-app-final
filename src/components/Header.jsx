@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 import SvgIcon from "@material-ui/icons/EmojiObjects";
 
 function Header() {
